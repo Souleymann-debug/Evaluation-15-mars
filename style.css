@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    margin-top: 10px;    
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    border: 5px solid transparent;
+    border-right-width: 0px;
+    border-image: linear-gradient(red, blue) ;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+#logo>img{
+    width: 80%;
+    object-fit: contain;
+}
+#navuser{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+#panier{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#linkat{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#linkat>a{   
+    text-decoration: none;
+    color: black;
+    border-left: 1px solid grey;
+    height: 100%;
+    padding-left: 10px;
+    height: 30px;
+}
+#contenu{
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#artliste{
+    
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+#artliste1{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+#art{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#box{
+    margin-top: 10px;
+    width: 240px;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 4px 4px 4px  black;
+}
+#box>p{
+    margin: 0;
+}
+#gant{
+    width: 100%;
+}
+#promo{
+    height: 40px;
+    width: 90px;
+    font-weight: bold;
+    font-size: 2em;
+    color: goldenrod;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: -30px;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(27, 27, 27);
+}
+#dplp{
+    display: flex;
+
+}
+#action>button{
+    border-style: none;
+    color: white;
+    background: linear-gradient(grey,rgb(27, 27, 27));
+    width: 100px;
+    height: 30px;
+}
+#action{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#prix{
+    display: flex;
+    justify-content: start;
+}
+#pourrien{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(97, 97, 97);
+    margin-top: -40px;
+}
+footer{
+    width: 100%;
+    background-color: rgb(97, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#foot2{
+    width:80%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    color: white;
+}
+#info>img{
+    width: 70px;
+}
+#sep{
+    background-color: black;
+    border: 1px solid rgb(66, 64, 64);
+    width: 50%;
+    height: 1px;
+}
+#reso{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+#autreslink{
+    width: 30%;
+    margin-bottom: -30px;
+    background-color: green;
+    border: 1px solid red;
+}
